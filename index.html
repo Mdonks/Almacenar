@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Colecciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Administrador de Colecciones</h1>
+    </header>
+    <main>
+        <section id="formulario">
+            <h2>Agregar Elemento</h2>
+            <form id="formulario-elemento">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+        <section id="lista-elementos">
+            <h2>Lista de Elementos</h2>
+            <ul id="lista">
+                
+            </ul>
+        </section>
+    </main>
+    <script src="modelo.js"></script>
+    <script src="controlador.js"></script>
+</body>
+</html>
